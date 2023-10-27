@@ -1,0 +1,139 @@
+h1,
+h2,
+h3, 
+h4, 
+h5, 
+h6,
+p,
+ul,
+a {
+    margin: 0;
+    padding: 0;
+}
+img {
+    display: block;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.header {
+}
+.container {
+    max-width: 1440px;
+    padding-left: 130px;
+    padding-right: 130px;
+}
+.header-navigation {
+}
+.header-logo {
+}
+.header-list {
+}
+.header-item {
+}
+.header-link {
+}
+.header-address {
+}
+.header-address-link {
+}
+.hero {
+    padding: 79px 0;
+}
+.hero-container {
+    display: flex;
+}
+.hero-img-text {
+}
+.hero-title {
+color: var(--1, #2E363E);
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Inter;
+font-size: 48px;
+line-height: 1,30;
+letter-spacing: -0,2em;
+margin-bottom: 25px;
+margin-right: 53.46px;
+}
+.hero-text {
+color: var(--2, #434B53);
+font-family: Inter;
+font-size: 21px;
+line-height: 1,60;
+letter-spacing: -0.01;
+margin-bottom: 25px;
+margin-right: 150px;
+}
+.hero-btn {
+display: inline-flex;
+padding: 20px 50px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 5px;
+background: #5F0A61;
+color: #FFF;
+font-family: Inter;
+font-size: 21px;
+font-weight: 600;
+line-height: 1,43;
+letter-spacing: -0.01em;
+}
+.hero-img {
+}
+.company {
+    padding-top: 172px;
+    padding-bottom: 172px;
+}
+.company-title {
+text-align: center;
+font-family: Inter;
+font-size: 36px;
+line-height: 1,33;
+margin-bottom: 60px;
+}
+.company-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 85px;
+}
+.company-item {
+    width: calc((100% - 170px) / 3);
+}
+.company-img-wrap{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 11px;
+}
+.company-img {
+}
+.company-subtitle {
+text-align: center;
+font-family: Inter;
+font-size: 22px;
+font-weight: 700;
+line-height: 1,43;
+margin-bottom: 8px;
+}
+.company-text {
+font-family: Inter;
+font-size: 18px;
+line-height: 1,5;
+}
+.connect {
+}
+.connect-img {
+}
+.connect-title {
+}
+.connect-text {
+}
+.connect-list {
+}
+.connect-item {
+}
+.connect-subtitle {
+}

@@ -4,68 +4,97 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Internet</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&family=Montserrat&family=Reem+Kufi&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
 </head>
 <body>
-    <header>
-        <nav>
-            <a href="./index.html">World.Net</a>
-            <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Reviews</a></li>
-                <li><a href="./tariffs.html">Tariffs</a></li>
-                <li><a href="">Contacts</a></li>
+    <header class="header">
+        <div class="container">
+        <nav class="header-navigation">
+            <a href="./index.html" class="header-logo">World.Net</a>
+            <ul class="header-list">
+                <li class="header-item"><a href="" class="header-link">Home</a></li>
+                <li class="header-item"><a href="" class="header-link">About</a></li>
+                <li class="header-item"><a href="" class="header-link">Reviews</a></li>
+                <li class="header-item"><a href="./tariffs.html" class="header-link">Tariffs</a></li>
+                <li class="header-item"><a href="" class="header-link">Contacts</a></li>
             </ul>
         </nav>
-        <a href="tel:88006549732"> 8 (800) 654-97-32</a>
+        <address class="header-address">
+        <a href="tel:88006549732" class="header-address-link"> 8 (800) 654-97-32</a>
+        </address>
+        </div>
     </header>
     <main>
-        <section>
-            <h1>Reliable Home Internet and TV Provider</h1>
-            <p>We work only in small towns. Thanks to this, 
+        <section class="hero">
+            <div class="container hero-container">
+            <div class="hero-img-text">
+            <h1 class="hero-title">Reliable Home Internet and TV Provider</h1>
+            <p class="hero-text">We work only in small towns. Thanks to this, 
                 we maintain quality and we will not spray</p>
-            <button type="button">Submit your application</button>
+            <button type="button" class="hero-btn">Submit your application</button>
+            </div>
+            <div>
             <img 
             src="./images/internet-day/bro.png" alt="Internet" 
             width="571"
             height="560"
+            class="hero-img"
             />
+            </div>
+            </div>
         </section>
-        <section>
-            <h2>Why choose our company</h2>
-            <ul>
-                <li>
-                    <img src="" alt=""/>
-                    <h3>Speed</h3>
-                    <p>Thanks to GPON and a backup line, we guarantee the speed right under  the contract</p>
+        <section class="company">
+            <div class="container">
+            <h2 class="company-title">Why choose our company</h2>
+            <ul class="company-list">
+                <li class="company-item">
+                    <div class="company-img-wrap">
+                    <img src="./images/speed.jpg" class="company-img" alt="speedometer" width="71.701" height="70" />
+                    </div>
+                    <h3 class="company-subtitle">Speed</h3>
+                    <p class="company-text">Thanks to GPON and a backup line, we guarantee the speed right under the contract</p>
                 </li>
-                <li>
-                    <img src="" alt=""/>
-                    <h3>Installation</h3>
-                    <p>We carefully mount the cable, without damaging the interior of your apartment
+                <li class="company-item">
+                    <div class="company-img-wrap">
+                    <img src="./images/installition.jpg" class="company-img" alt="wrench" width="71.701" height="70"/>
+                    </div>
+                    <h3 class="company-subtitle">Installation</h3>
+                    <p class="company-text">We carefully mount the cable, without damaging the interior of your apartment
                         or house</p>
                 </li>
-                <li>
-                    <img src="" alt=""/>
-                    <h3>Support</h3>
-                    <p>Round-the-clock help in the application or via the hotline, even on holidays you can get an answer to your question</p>
+                <li class="company-item">
+                    <div class="company-img-wrap">
+                    <img src="./images/support.jpg" class="company-img" alt="clock" width="71.701" height="70"/>
+                    </div>
+                    <h3 class="company-subtitle">Support</h3>
+                    <p class="company-text">Round-the-clock help in the application or via the hotline, even on holidays you can get an answer to your question</p>
                 </li>
             </ul>
+            </div>
         </section>
-        <section>
-            <img src="./images/online-page/bro-2.jpg" alt="woman with noutbook"/>
-            <h2>We will connect today or next day</h2>
-            <p>Our coverage area is much smaller than that of large providers. This allows us to work quickly: 64% of subscribers receive Internet and TV immediately on the day of application. Even if you need to connect a private house, not an apartment.</p>
-            <ul>
-                <li>
-                    <h3>14 536</h3>
-                    <p>Active subscribers  throughout the region</p>
+        <section class="connect">
+            <div class="container">
+            <img src="./images/online-page/bro-2.jpg" class="connect-img" alt="woman with noutbook"/>
+            <h2 class="connect-title">We will connect today or next day</h2>
+            <p class="connect-text">Our coverage area is much smaller than that of large providers. This allows us to work quickly: 64% of subscribers receive Internet and TV immediately on the day of application. Even if you need to connect a private house, not an apartment.</p>
+            <ul class="connect-list">
+                <li class="connect-item">
+                    <h3 class="connect-subtitle">14 536</h3>
+                    <p class="connect-text">Active subscribers throughout the region</p>
                 </li>
-                <li>
-                    <h3>4,91</h3>
-                    <p>Average quality score  for home Internet and TV</p>
+                <li class="connect-item">
+                    <h3 class="connect-subtitle">4,91</h3>
+                    <p class="connect-text">Average quality score for home Internet and TV</p>
                 </li>
-            </ul>  
+            </ul>
+            </div>  
         </section>
     </main>  
 </body>
