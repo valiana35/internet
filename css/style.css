@@ -19,12 +19,14 @@ ul {
 a {
     text-decoration: none;
 }
-.header {
-}
 .container {
     max-width: 1440px;
     padding-left: 130px;
     padding-right: 130px;
+}
+.header {
+   padding-top: 50px;
+   padding-bottom: 50px;
 }
 .header-navigation {
 }
@@ -36,9 +38,7 @@ a {
 }
 .header-link {
 }
-.header-address {
-}
-.header-address-link {
+.header-tel-link {
 }
 .hero {
     padding: 79px 0;
@@ -103,12 +103,9 @@ margin-bottom: 60px;
 .company-item {
     width: calc((100% - 170px) / 3);
 }
-.company-img-wrap{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 11px;
-}
 .company-img {
+    margin: 0 auto;
+    margin-bottom: 11px;
 }
 .company-subtitle {
 text-align: center;
