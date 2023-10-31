@@ -23,6 +23,7 @@ a {
     max-width: 1440px;
     padding-left: 130px;
     padding-right: 130px;
+    margin: 0 auto;
 }
 .header {
    padding-top: 50px;
